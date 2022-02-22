@@ -23,10 +23,12 @@ body {
   padding: 14px 250px;
   text-decoration: none;
   font-size: 70px;
+  text-shadow: 3px 3px #e36f2a;
 }
 
 .topnav a:hover {
   color: #e36f2a;
+  text-shadow: 3px 3px white;
 }
 
 .rodeo_drive {
@@ -37,22 +39,25 @@ body {
 }
 
 .centered {
-  position: absolute;
   text-align: center;
-  top: 700px;
   font-weight: bold;
-  left: 2500px;
+  position: absolute;
+  overflow: hidden;
   color: #e36f2a;
-  font-size: 80px;
-  transform: translate(-50%, -50%);
+  top: 700px;
+  padding-top: -1000px;
+  font-size: 90px;
+  width: 4524px;
+  text-shadow: 4px 4px white;
 }
 
-.row {
+.section2 {
   margin-top: 300px;
   width: 4524px;
-  height: 1500px;
+  height: 1200px;
   padding-left: 663px;
   padding-right: 663px;
+  color: white;
 }
 
 .card {
@@ -65,9 +70,10 @@ body {
   float: left;
   margin-left: 35px;
   margin-right: 25px;
+  height: 1140px;
 }
 
-.section2 {
+.image {
   margin-top: 50px;
   width: 900px;
   height: 600px;
@@ -79,10 +85,10 @@ body {
   float: left;
   margin-left: 50px;
   margin-top: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
-#griffith {
+.paragraph {
     color: #ffffff;
     font-size: 40px;
     float: left;
@@ -99,17 +105,17 @@ body {
 
 .grid-view-1 {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1462px 1462px;
   padding-left: 800px;
   padding-right: 800px;
-  padding-top: 9%;
-  padding-bottom: 9%;
+  padding-top: 400px;
+  padding-bottom: 400px;
   margin-bottom: 300px;
 }
 
 .grid-view-item-1 {
   color: white;
-  font-size: 40px;
+  font-size: 45px;
   padding-left: 25px;
   padding-right: 25px;
   text-align: justify;
@@ -128,8 +134,8 @@ body {
 
 .grid-view-2{
   display: grid;
-  grid-template-columns: 30% 70%;
-  padding-top: 9%;
+  grid-template-columns: 877px 2046px;
+  padding-top: 146px;
 }
 
 .grid-view-item-21 {
@@ -139,11 +145,11 @@ body {
 .grid-view-item-22 {
   color: white;
   text-align: justify;
-  font-size: 40px;
+  font-size: 43px;
   padding-left: 25px;
 }
 
-#hollywood {
+.hollywood {
   font-style: bold;
   font-size: 80px;
   color: white;
@@ -153,19 +159,17 @@ body {
 
 .grid-view-3{
   display: grid;
-  grid-template-columns: 70% 30%;
-  padding-top: 3%;
-  padding-bottom: 9%;
+  grid-template-columns: 2046px 877px;
+  padding-top: 88px;
+  padding-bottom: 88px;
 }
 
-#beach {
+.beach {
   font-style: bold;
   font-size: 80px;
   color: white;
   text-align: right;
   padding-bottom: 30px;
-  /* padding-left: 25px;
-  padding-right: 25px; */
 }
 
 .grid-view-item-31 {
@@ -178,17 +182,17 @@ body {
   height: 500px;
 }
 
-.beach {
+.beachImage {
   text-align: right;
 }
 
 .footer-view {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 1170px 1754px;
   padding-left: 800px;
   padding-right: 800px;
-  padding-top: 4%;
-  padding-bottom: 4%;
+  padding-top: 180px;
+  padding-bottom: 180px;
   text-align: center;
   font-size: 40px;
 }
@@ -203,17 +207,70 @@ body {
   font-size: 50px;
 }
 
+.emailPhone {
+  text-decoration: none;
+  color: white;
+}
+
+.emailPhone:hover {
+  text-decoration: underline;
+}
+
 .not-found {
   width: 4524px;
-  /* height: 1100px; */
-  object-position: 0px -500px;
+  height: 1200px;
+  object-fit: cover;
+  object-position: 0px -650px;
 }
 
 .page-not-found {
-  margin-top: -200px;
+  margin-top: 200px;
   width: 4524px;
   text-align: center;
   color: white;
   margin-bottom: 200px;
   font-size: 50px;
+}
+
+.not-found-text {
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  overflow: hidden;
+  color: black;
+  top: 830px;
+  padding-top: -200px;
+  font-size: 100px;
+  width: 4524px;
+}
+
+.overlay {
+  position: absolute;
+  width: 4524px;
+  height: 1200px;
+  top: 244px;
+  background-color: rgba(226, 156, 113, 0.6);
+}
+
+.not-found-topnav {
+  text-align: center;
+  background-color: #13131b;
+  overflow: hidden;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 4524px;
+}
+
+.not-found-topnav a {
+  color: #e36f2a;
+  text-align: center;
+  padding: 14px 250px;
+  text-decoration: none;
+  font-size: 70px;
+  text-shadow: 3px 3px #f2f2f2;
+}
+
+.not-found-topnav a:hover {
+  color: #f2f2f2;
+  text-shadow: 3px 3px #e36f2a;
 }
