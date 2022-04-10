@@ -1,7 +1,7 @@
 {
   "name": "arc",
   "version": "0.1.0",
-  "homepage": "https://mahimamandhana0503.github.io/mahimamandhana0503.github.io/HW3",
+  "homepage": "https://mahimamandhana0503.github.io/HW3/build",
   "private": true,
   "dependencies": {
     "@esri/react-arcgis": "^5.1.0",
